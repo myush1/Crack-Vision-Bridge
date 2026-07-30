@@ -1683,7 +1683,7 @@ ${focus ? `현재 사용자가 작성 중인 메시지: ${focus}` : ""}
       const submit = document.createElement("button");
       submit.type = "button";
       submit.className = "cvb-primary";
-      submit.textContent = "분석 후 추가";
+      submit.textContent = "추가";
       submit.disabled = true;
       submit.addEventListener("click", () => {
         if (!selectedFile) return;
